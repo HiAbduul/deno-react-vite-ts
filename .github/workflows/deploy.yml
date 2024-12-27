@@ -30,7 +30,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "deno-react-ts"
-          entrypoint: "./server.main.ts"
+          entrypoint: "./server/main.ts"
           root: "dist"
           
           
