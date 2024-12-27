@@ -39,6 +39,6 @@ jobs:
         with:
           project: "deno-react-ts"
           entrypoint: "./server.main.ts"
-          root: "dist"
+          root: "build"
           
           
